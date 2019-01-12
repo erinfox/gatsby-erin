@@ -9,8 +9,8 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     box-sizing: border-box;
     -ms-overflow-style: scrollbar;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    background-color: #161719;
+    ${'' /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */}
+    ${'' /* background-color: #161719; */}
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -21,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
   }
   a {
-    color: #e07628;
+    color: '#e07628';
     text-decoration: none;
   }
 `

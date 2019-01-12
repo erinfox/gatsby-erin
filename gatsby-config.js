@@ -28,7 +28,7 @@ module.exports = {
         short_name: config.siteTitleShort,
         description: config.siteDescription,
         start_url: config.pathPrefix,
-        background_color: config.backgroundColor,
+        // background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: 'standalone',
         icons: [
